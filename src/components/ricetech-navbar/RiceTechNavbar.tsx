@@ -1,6 +1,7 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './_ricetech-navbar.scss';
 
 export const RiceTechNavbar = () => (
   <Navbar variant="dark" expand="lg" sticky="top">
