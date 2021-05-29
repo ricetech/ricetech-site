@@ -5,6 +5,7 @@ import './App.scss';
 import RiceTechNavbar from './components/ricetech-navbar';
 import HomePage from './pages/home';
 import ProjectsPage from './pages/projects';
+import ResumePage from './pages/resume';
 
 const App = () => (
   <div className='App'>
@@ -15,6 +16,9 @@ const App = () => (
       </Route>
       <Route path='/projects'>
         <ProjectsPage />
+      </Route>
+      <Route path='/resume'>
+        <ResumePage />
       </Route>
     </Switch>
   </div>
