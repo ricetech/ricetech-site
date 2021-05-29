@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './_ricetech-navbar.scss';
 
 export const RiceTechNavbar = () => (
-  <Navbar variant="dark" expand="md" sticky="top">
+  <Navbar bg="dark" variant="dark" expand="md" sticky="top">
     <Navbar.Brand as={Link} to="/">Eric Chen (RiceTech)</Navbar.Brand>
     <Navbar.Toggle aria-controls="ricetech-navbar" />
     <Navbar.Collapse id="ricetech-navbar">
