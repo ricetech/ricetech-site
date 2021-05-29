@@ -24,3 +24,9 @@ yarn-error.log*
 
 .idea/
 .vscode/
+
+# firebase
+.firebase
+/firebase-debug.log
+/firestore-debug.log
+/ui-debug.log
