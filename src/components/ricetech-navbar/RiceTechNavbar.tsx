@@ -10,6 +10,7 @@ export const RiceTechNavbar = () => (
     <Navbar.Collapse id="ricetech-navbar">
       <Nav className="mr-auto">
         <Nav.Link as={Link} to="/">Home</Nav.Link>
+        <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Navbar>
