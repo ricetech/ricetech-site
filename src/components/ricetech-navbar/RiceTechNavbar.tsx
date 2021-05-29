@@ -6,7 +6,7 @@ import './_ricetech-navbar.scss';
 // noinspection HtmlUnknownTarget
 export const RiceTechNavbar = () => (
   <Navbar bg="dark" variant="dark" expand="md" sticky="top">
-    <Navbar.Brand as={Link} to="/" className="d-inline-block mr-2">
+    <Navbar.Brand as={Link} to="/" className="mr-2">
       <img
         src="/img/logo/the_ricetech-23.svg"
         className="d-inline-block align-top navbar--logo"
