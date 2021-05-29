@@ -1,25 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Switch, Route } from 'react-router-dom';
+
 import './App.scss';
 import RiceTechNavbar from './components/ricetech-navbar';
+import HomePage from './pages/home';
 
 const App = () => (
   <div className='App'>
     <RiceTechNavbar />
-    <header className='App-header'>
-      <img src={logo} className='App-logo' alt='logo' />
-      <p>
-        Edit <code>src/App.tsx</code> and save to reload.
-      </p>
-      <a
-        className='App-link'
-        href='https://reactjs.org'
-        target='_blank'
-        rel='noopener noreferrer'
-      >
-        Learn React
-      </a>
-    </header>
+    <Switch>
+      <Route exact path='/'>
+        <HomePage />
+      </Route>
+    </Switch>
   </div>
 );
 
