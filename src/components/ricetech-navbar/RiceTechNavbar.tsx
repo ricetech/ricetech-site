@@ -1,6 +1,6 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import './_ricetech-navbar.scss';
 
 // noinspection HtmlUnknownTarget
@@ -17,9 +17,9 @@ export const RiceTechNavbar = () => (
     <Navbar.Toggle aria-controls="ricetech-navbar" />
     <Navbar.Collapse id="ricetech-navbar">
       <Nav className="mr-auto">
-        <Nav.Link as={Link} to="/">Home</Nav.Link>
-        <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
-        <Nav.Link as={Link} to="/resume">Resume</Nav.Link>
+        <Nav.Link as={NavLink} exact to="/" activeClassName='active'>Home</Nav.Link>
+        <Nav.Link as={NavLink} to="/projects" activeClassName='active'>Projects</Nav.Link>
+        <Nav.Link as={NavLink} to="/resume" activeClassName='active'>Resume</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Navbar>
