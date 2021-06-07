@@ -70,6 +70,7 @@
     "react/jsx-one-expression-per-line": "off",
     "react/jsx-wrap-multilines": "off",
     "react/destructuring-assignment": "off",
+    "arrow-body-style": "off",
     "@typescript-eslint/comma-dangle": ["error", {
       "arrays": "only-multiline",
       "objects": "only-multiline",
