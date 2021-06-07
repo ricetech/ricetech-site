@@ -1,27 +1,27 @@
 import React from 'react';
 
-import logo from '../../logo.svg';
-
 import './_home.scss';
+import { Container, Figure, Jumbotron } from 'react-bootstrap';
 
 export const HomePage = () => {
-  const x = 'Projects';
   return (
     <>
-      <header className='App-header'>
-        <img src={logo} className='App-logo' alt='logo' />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className='App-link'
-          href='https://reactjs.org'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Learn React
-        </a>
-      </header>
+      <Container className="mt-4">
+        <Jumbotron fluid>
+          <h1>Welcome!</h1>
+          <p>
+            This is my personal website. I'll be adding more content to it over
+            the next few weeks.
+          </p>
+          <Figure>
+            <Figure.Image
+              className="app-logo"
+              alt="RiceTech Logo"
+              src="img/logo/the_ricetech-23.svg"
+            />
+          </Figure>
+        </Jumbotron>
+      </Container>
     </>
   );
 };
