@@ -1,11 +1,12 @@
 import React from 'react';
-import { Switch, Redirect, Route } from 'react-router-dom';
+import { Redirect, Route, Switch } from 'react-router-dom';
 
-import './App.scss';
 import RiceTechNavbar from './components/ricetech-navbar';
 import HomePage from './pages/home';
 import ProjectsPage from './pages/projects';
 import ResumePage from './pages/resume';
+
+import './App.scss';
 
 const App = () => (
   <div className='App'>

@@ -1,7 +1,8 @@
 import React from 'react';
 
-import './_home.scss';
 import logo from '../../logo.svg';
+
+import './_home.scss';
 
 export const HomePage = () => {
   const x = 'Projects';
