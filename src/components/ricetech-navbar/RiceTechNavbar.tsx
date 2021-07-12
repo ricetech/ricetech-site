@@ -21,9 +21,9 @@ export const RiceTechNavbar = () => (
         <Nav.Link as={NavLink} exact to="/" activeClassName="active">
           Home
         </Nav.Link>
-        <Nav.Link as={NavLink} to="/projects" activeClassName="active">
-          Projects
-        </Nav.Link>
+        {/*<Nav.Link as={NavLink} to="/projects" activeClassName="active">*/}
+        {/*  Projects*/}
+        {/*</Nav.Link>*/}
         <Nav.Link as={NavLink} to="/resume" activeClassName="active">
           Resume
         </Nav.Link>
