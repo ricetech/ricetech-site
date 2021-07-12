@@ -71,6 +71,7 @@
     "react/jsx-wrap-multilines": "off",
     "react/destructuring-assignment": "off",
     "arrow-body-style": "off",
+    "spaced-comment": "off",
     "@typescript-eslint/comma-dangle": [
       "error",
       {
