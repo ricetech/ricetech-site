@@ -9,19 +9,19 @@ import ResumePage from './pages/resume';
 import './App.scss';
 
 const App = () => (
-  <div className='App'>
+  <div className="App">
     <RiceTechNavbar />
     <Switch>
-      <Route exact path='/'>
+      <Route exact path="/">
         <HomePage />
       </Route>
-      <Route path='/projects'>
+      <Route path="/projects">
         <ProjectsPage />
       </Route>
-      <Route path='/resume'>
+      <Route path="/resume">
         <ResumePage />
       </Route>
-      <Redirect from='*' to='/' />
+      <Redirect from="*" to="/" />
     </Switch>
   </div>
 );
