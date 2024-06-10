@@ -10,8 +10,7 @@ export const HomePage = () => {
         <Jumbotron fluid>
           <h1>Welcome!</h1>
           <p>
-            This is my personal website. I'll be adding more content to it over
-            the next few weeks.
+            This is the official RiceTech website.
           </p>
           <Figure>
             <Figure.Image
